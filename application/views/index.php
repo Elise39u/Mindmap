@@ -1,8 +1,8 @@
 <div id="container">
     <?php
         $i = 0;
-        while($i < 5) { ?>
-            <textarea class="" id="textarea<?= $i ?>"><?= $i ?></textarea>
+        while($i < 10) { ?>
+            <textarea class="textareas" id="textarea<?= $i ?>"><?= $i ?></textarea>
        <?php
           $i++;
         }
